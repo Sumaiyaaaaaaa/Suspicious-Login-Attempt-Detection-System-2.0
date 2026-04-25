@@ -1,0 +1,27 @@
+# 🔐 Suspicious Login Detection System (Swing)
+
+## 📌 Overview
+A GUI-based login security system built using Java Swing, JDBC, and MySQL.  
+The system detects suspicious login attempts and provides an admin dashboard to monitor and control user activity.
+
+## 🚀 Features
+- User authentication system
+- Suspicious login detection (after 3 failed attempts)
+- Account locking (after 5 failed attempts)
+- Admin dashboard with login logs
+- Unlock user functionality
+
+## 🛠️ Tech Stack
+- Java (Swing)
+- MySQL
+- JDBC
+
+## 📊 System Flow
+1. User enters login credentials
+2. System validates using database
+3. Failed attempts are tracked
+4. Suspicious activity is flagged
+5. Admin can monitor logs and unlock users
+
+## 👩‍💻 Author
+Sumaiya Firdose
